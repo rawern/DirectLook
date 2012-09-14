@@ -1,0 +1,11 @@
+<Modules>
+    <Module path="C:\Programme\OpenNI\Bin\nimRecorder.dll" />
+    <Module path="C:\Programme\OpenNI\Bin\nimMockNodes.dll" />
+    <Module path="C:\Programme\OpenNI\Bin\nimCodecs.dll" />
+    <Module path="C:\Programme\PrimeSense\NITE\Features_1_3_0\Bin\XnVFeatures.dll" configDir="C:\Programme\PrimeSense\NITE\Features_1_3_0\Data" />
+    <Module path="C:\Programme\PrimeSense\NITE\Features_1_3_1\Bin\XnVFeatures_1_3_1.dll" configDir="C:\Programme\PrimeSense\NITE\Features_1_3_1\Data" />
+    <Module path="C:\Programme\PrimeSense\NITE\Hands_1_3_0\Bin\XnVHandGenerator.dll" configDir="C:\Programme\PrimeSense\NITE\Hands_1_3_0\Data" />
+    <Module path="C:\Programme\PrimeSense\NITE\Hands_1_3_1\Bin\XnVHandGenerator_1_3_1.dll" configDir="C:\Programme\PrimeSense\NITE\Hands_1_3_1\Data" />
+    <Module path="C:\Programme\PrimeSense\SensorKinect\Bin\XnDeviceFile.dll" />
+    <Module path="C:\Programme\PrimeSense\SensorKinect\Bin\XnDeviceSensorV2KM.dll" configDir="C:\Programme\PrimeSense\SensorKinect\Data" />
+</Modules>

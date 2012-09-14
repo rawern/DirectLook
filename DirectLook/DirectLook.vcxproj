@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SensorGLWidget.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_SensorGLWidget.cpp" />
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp" />
+    <ClCompile Include="Image\DepthImage.cpp" />
+    <ClCompile Include="Image\GLSegmentedDepthImage.cpp" />
+    <ClCompile Include="Image\RGBImage.cpp" />
+    <ClCompile Include="Image\SegmentedDepthImage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Math\Matrix.cpp" />
+    <ClCompile Include="Math\Vector2.cpp" />
+    <ClCompile Include="Math\Vector3.cpp" />
+    <ClCompile Include="Math\Vector4.cpp" />
+    <ClCompile Include="Math\VectorMath.cpp" />
+    <ClCompile Include="OpenGL\AvVideoDecoder.cpp" />
+    <ClCompile Include="OpenGL\BufferObject.cpp" />
+    <ClCompile Include="OpenGL\ElementBufferObject.cpp" />
+    <ClCompile Include="OpenGL\GLCamera.cpp" />
+    <ClCompile Include="OpenGL\GLMesh.cpp" />
+    <ClCompile Include="OpenGL\GLScene.cpp" />
+    <ClCompile Include="OpenGL\RenderTarget.cpp" />
+    <ClCompile Include="OpenGL\Shader.cpp" />
+    <ClCompile Include="OpenGL\SimpleTexture.cpp" />
+    <ClCompile Include="OpenGL\TextureObject.cpp" />
+    <ClCompile Include="OpenGL\VertexBufferObject.cpp" />
+    <ClCompile Include="SensorGLWidget.cpp" />
+    <ClCompile Include="Sensor\AudioStream.cpp" />
+    <ClCompile Include="Sensor\KinectMotor.cpp" />
+    <ClCompile Include="Sensor\SensorOpenNI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image\depthimage.h" />
+    <ClInclude Include="image\glsegmenteddepthimage.h" />
+    <ClInclude Include="image\rgbimage.h" />
+    <ClInclude Include="image\segmenteddepthimage.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="Math\Constants.h" />
+    <ClInclude Include="Math\Matrix.h" />
+    <ClInclude Include="Math\Vector2.h" />
+    <ClInclude Include="Math\Vector3.h" />
+    <ClInclude Include="Math\Vector4.h" />
+    <ClInclude Include="Math\VectorMath.h" />
+    <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="OpenGL\AvVideoDecoder.h" />
+    <ClInclude Include="OpenGL\BufferObject.h" />
+    <ClInclude Include="OpenGL\ElementBufferObject.h" />
+    <ClInclude Include="OpenGL\GLCamera.h" />
+    <ClInclude Include="OpenGL\GLMesh.h" />
+    <ClInclude Include="opengl\glscene.h" />
+    <ClInclude Include="opengl\irenderobject.h" />
+    <ClInclude Include="OpenGL\RenderTarget.h" />
+    <ClInclude Include="OpenGL\Shader.h" />
+    <ClInclude Include="OpenGL\SimpleTexture.h" />
+    <ClInclude Include="OpenGL\TextureObject.h" />
+    <ClInclude Include="OpenGL\VertexBufferObject.h" />
+    <ClInclude Include="SensorGLWidget.h" />
+    <ClInclude Include="Sensor\AudioStream.h" />
+    <ClInclude Include="Sensor\ISensorInterface.h" />
+    <ClInclude Include="Sensor\KinectMotor.h" />
+    <ClInclude Include="Sensor\SensorOpenNI.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D2314772-1DF6-4B75-B27F-24B508BC07E4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Skype</RootNamespace>
+    <ProjectName>DirectLook</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)dep\glew\include;$(OPEN_NI_INCLUDE);$(SolutionDir)dep\Qt\include;$(ProjectDir)\GeneratedFiles\$(ConfigurationName);$(SolutionDir)dep\Qt\include\QtCore;$(SolutionDir)dep\Qt\include\QtGui;$(SolutionDir)dep\Qt\include\QtOpenGL;$(IncludePath);$(SolutionDir)dep\ffmpeg\include\libavdevice;$(SolutionDir)dep\ffmpeg\include\libswscale;$(SolutionDir)dep\ffmpeg\include\libavcodec;$(SolutionDir)dep\ffmpeg\include\libavformat;$(SolutionDir)dep\ffmpeg\include\libavutil;$(SolutionDir)dep\ffmpeg\include;</IncludePath>
+    <LibraryPath>$(SolutionDir)dep\Qt\lib;$(SolutionDir)dep\glew\lib;$(OPEN_NI_LIB);$(SolutionDir)dep\ffmpeg\lib;$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <TargetExt>D.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)dep\glew\include;$(OPEN_NI_INCLUDE);$(SolutionDir)dep\Qt\include;$(ProjectDir)\GeneratedFiles\$(ConfigurationName);$(SolutionDir)dep\Qt\include\QtCore;$(SolutionDir)dep\Qt\include\QtGui;$(SolutionDir)dep\Qt\include\QtOpenGL;$(IncludePath);$(SolutionDir)dep\ffmpeg\include\libavdevice;$(SolutionDir)dep\ffmpeg\include\libswscale;$(SolutionDir)dep\ffmpeg\include\libavcodec;$(SolutionDir)dep\ffmpeg\include\libavformat;$(SolutionDir)dep\ffmpeg\include\libavutil;$(SolutionDir)dep\ffmpeg\include;$(SolutionDir)dep\ffmpeg\include;$(SolutionDir)dep\ffmpeg\include\libavcodec;$(SolutionDir)dep\ffmpeg\include\libavdevice;$(SolutionDir)dep\ffmpeg\include\libavfilter;$(SolutionDir)dep\ffmpeg\include\libavformat;$(SolutionDir)dep\ffmpeg\include\libavresample;$(SolutionDir)dep\ffmpeg\include\libavutil;$(SolutionDir)dep\ffmpeg\include\libpostproc;$(SolutionDir)dep\ffmpeg\include\libswresample;$(SolutionDir)dep\ffmpeg\include\libswscale</IncludePath>
+    <LibraryPath>$(SolutionDir)dep\Qt\lib;$(SolutionDir)dep\glew\lib;$(OPEN_NI_LIB);$(SolutionDir)dep\ffmpeg\lib;$(LibraryPath);$(SolutionDir)dep\ffmpeg\lib</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>UNICODE;QT_LARGEFILE_SUPPORT;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;QtCored4.lib;QtGuid4.lib;QtOpenGLd4.lib;glu32.lib;opengl32.lib;glew32.lib;openNI.lib;avutil.lib;avformat.lib;avdevice.lib;avcodec.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>UNICODE;QT_LARGEFILE_SUPPORT;QT_NO_DEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_OPENGL_LIB;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>avutil.lib;avformat.lib;avdevice.lib;avcodec.lib;swscale.lib;qtmain.lib;QtCore4.lib;QtGui4.lib;QtOpenGL4.lib;glu32.lib;opengl32.lib;glew32.lib;openNI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

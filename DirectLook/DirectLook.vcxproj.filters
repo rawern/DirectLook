@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Sensor">
+      <UniqueIdentifier>{fff7f1bf-3535-4ccd-b419-9af179989741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\OpenGL">
+      <UniqueIdentifier>{d624d3fc-35a1-4afc-a994-4a4ff6683505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Image">
+      <UniqueIdentifier>{6ece162f-a639-4a87-86ae-7c9da83926f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Math">
+      <UniqueIdentifier>{a903036e-ad0e-4827-8e42-547c4fa2a643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Image">
+      <UniqueIdentifier>{8416cd42-198c-48d0-b2f4-799129e18ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Math">
+      <UniqueIdentifier>{459fa734-170f-4458-9996-9f3248c55c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\OpenGL">
+      <UniqueIdentifier>{9e250a95-6332-4505-9715-5455e5f38687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Sensor">
+      <UniqueIdentifier>{1ada0198-a549-434d-b6fd-b2635f7a78a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generierte Dateien">
+      <UniqueIdentifier>{9055258e-32b9-4ae9-93bf-6414c9dd7149}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="Generierte Dateien\Debug">
+      <UniqueIdentifier>{45fb8c71-e2a7-4dd2-b60a-6acad4752194}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+      <Extensions>cpp;moc</Extensions>
+    </Filter>
+    <Filter Include="Generierte Dateien\Release">
+      <UniqueIdentifier>{7aff6785-48e1-4344-b8fe-ef4283190395}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+      <Extensions>cpp;moc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor\AudioStream.cpp">
+      <Filter>Quelldateien\Sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor\KinectMotor.cpp">
+      <Filter>Quelldateien\Sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor\SensorOpenNI.cpp">
+      <Filter>Quelldateien\Sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\RenderTarget.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\Shader.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\SimpleTexture.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\TextureObject.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\VertexBufferObject.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\BufferObject.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\ElementBufferObject.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\GLCamera.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\GLMesh.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\VectorMath.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Quelldateien\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\AvVideoDecoder.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\GLScene.cpp">
+      <Filter>Quelldateien\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\DepthImage.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\RGBImage.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\SegmentedDepthImage.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorGLWidget.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\GLSegmentedDepthImage.cpp">
+      <Filter>Quelldateien\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SensorGLWidget.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SensorGLWidget.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\VectorMath.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Constants.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Headerdateien\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\GLMesh.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\RenderTarget.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\Shader.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\SimpleTexture.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\TextureObject.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\VertexBufferObject.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\BufferObject.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\ElementBufferObject.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\GLCamera.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor\SensorOpenNI.h">
+      <Filter>Headerdateien\Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor\AudioStream.h">
+      <Filter>Headerdateien\Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor\ISensorInterface.h">
+      <Filter>Headerdateien\Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor\KinectMotor.h">
+      <Filter>Headerdateien\Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCopyable.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\AvVideoDecoder.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="image\depthimage.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\glsegmenteddepthimage.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\segmenteddepthimage.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorGLWidget.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl\glscene.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl\irenderobject.h">
+      <Filter>Headerdateien\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="image\rgbimage.h">
+      <Filter>Headerdateien\Image</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

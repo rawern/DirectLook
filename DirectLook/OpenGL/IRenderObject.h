@@ -1,0 +1,60 @@
+#pragma once
+
+#include "../NonCopyable.h"
+
+namespace DirectLook
+{
+	/// \brief Die Schnittstelle IRenderObject repraesentiert ein abstraktes Grafikobjekt, das von der Grafikkarte gerendert wird. 
+	class IRenderObject : public NonCopyable
+	{
+
+	protected:
+		bool m_IsInitialized;	///< Wurde das IRenderObject initialisier?
+		bool m_IsUpdated;		///< Wurde das IRenderObject aktualisiert?
+
+	public:
+		////////////////////////////////////////////////////////////
+		/// \brief Wurde das IRenderObject initialisiert?
+		////////////////////////////////////////////////////////////
+		bool isInitialized(void)
+		{
+			return m_IsInitialized;
+		}
+		
+		////////////////////////////////////////////////////////////
+		/// \brief Wurde das IRenderObject aktualisiert?
+		////////////////////////////////////////////////////////////
+		bool isUpdated(void)
+		{
+			return m_IsUpdated;
+		}
+
+		////////////////////////
+		// Abstrakte Methoden //
+		////////////////////////
+		
+		////////////////////////////////////////////////////////////
+		/// \brief Initialisiert den IRenderObject.
+		/// Sollte vom Konstruktor der abgeleiteten Klassen aufgerufen werden.
+		///
+		////////////////////////////////////////////////////////////
+		virtual void initialize(void) = 0;
+		
+		////////////////////////////////////////////////////////////
+		/// \brief Aktualisiert die Daten das IRenderObjectes.
+		////////////////////////////////////////////////////////////
+		virtual void update(void) = 0;
+		
+		////////////////////////////////////////////////////////////
+		/// \brief Zeichnet das IRenderObject.
+		////////////////////////////////////////////////////////////
+		virtual void draw(void) = 0;
+		
+		////////////////////////////////////////////////////////////
+		/// \brief Loescht die Daten des IRenderObjectes.
+		/// Sollte vom Destruktor der abgeleiteten Klassen aufgerufen werden.
+		///
+		////////////////////////////////////////////////////////////
+		virtual void deleteResources(void) = 0;
+	};
+};
