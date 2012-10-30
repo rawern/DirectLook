@@ -2,11 +2,11 @@
 
 ## What is DirectLook?
 
-DirectLook helps you to get rid of an unattractive effect while videochatting. If you use your build-in webcam of your laptop or an dedicated webcam, you mostly looking on the screen while chatting. So you are unable to look directly in the "eyes" of your chatpartner.
+DirectLook helps you to get rid of an unattractive effect while capturing videos from xour webcam. If you use your build-in webcam of your laptop or an dedicated webcam, you mostly looking on the screen and not in the camera. So you are unable to look directly in the camera while your are looking at the screen.
 
 ## Features
 
-- uses OpenNI compatible Depthsensors like Microsoft Kinect or Asus Xtion to capture the scene
+- uses OpenNI to access the MS Kinect (Kinect for Windows is not supported)
 - reconstructs the scene with the collected data
 - rotate and pan your head within the digital scene
 
