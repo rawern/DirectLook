@@ -2,7 +2,7 @@
 
 ## What is DirectLook?
 
-DirectLook helps you to get rid of an unattractive effect while capturing videos from xour webcam. If you use your build-in webcam of your laptop or an dedicated webcam, you mostly looking on the screen and not in the camera. So you are unable to look directly in the camera while your are looking at the screen.
+DirectLook helps you to get rid of an unattractive effect while capturing videos from your webcam. If you use your build-in webcam from your laptop or an dedicated webcam, you mostly looking on the screen and not in the camera. So you are unable to look directly in the camera while your are looking at the screen.
 
 ## Features
 
@@ -12,8 +12,9 @@ DirectLook helps you to get rid of an unattractive effect while capturing videos
 
 ## Developed by
 
-DirectLook was developed by a small group of 6 students at the University of Applied Science Darmstadt, Germany (Hochschule Darmstadt). We are all Computer Science students and we developed this over a time of two semesters.
-We are supported by Prof. E. Hergenröther and Prof. J. Wietzke from our department.
+DirectLook was developed by a small group of 6 students at the University of Applied Science Darmstadt, Germany (Hochschule Darmstadt).
+We are all Computer Science students and we developed this over a time of two semesters.
+Prof. E. Hergenrï¿½ther and Prof. J. Wietzke from our department supported us over this time.
 
 ## Installation
 
