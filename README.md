@@ -13,12 +13,12 @@ So you are unable to look directly in the camera while your are looking at the s
 
 ## Developed by
 
-- Philipp Borsutzki
-- Bernd Klemm
-- Alexander Nawroth
-- Sebastian Paul
-- Kai-Alexander Schubert
-- Ralf Werner
+- Borsutzki, Philipp
+- Klemm, Bernd
+- Nawroth, Alexander
+- Paul, Sebastian
+- Schubert, Kai-Alexander
+- Werner, Ralf
 
 DirectLook was developed at the University of Applied Science Darmstadt, Germany (Hochschule Darmstadt).  
 We are all Computer Science students and we developed this over a time of two semesters.  
